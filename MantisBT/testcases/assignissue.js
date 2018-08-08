@@ -2,7 +2,7 @@ var utils = require('../../../Pages/utils');
 
 module.exports=
 {
-    tags: ['deleteissue'],
+    tags: ['assignissue'],
 
     before: function(browser)
     {
@@ -17,7 +17,7 @@ module.exports=
     'update issue field': function(browser)
     {
       
-        utils(browser).DeleteIssue();
+        utils(browser).AssignIssue()
     },
     'Logout Mantis BT':function(browser)
     {
